@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpons Pyro - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdfafa;
+        }
+
+        header {
+            color: #fff;
+            position: fixed;
+            text-align: right;
+            padding: 1em 0;
+            width: 100%;
+            background-color: rgba(192, 252, 252, 0.735);
+            
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        #projects {
+            text-align: left;
+            max-width: 1000px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 15px;
+            background-color: #fbfbfb;
+            border-radius: 5px;
+
+        }
+
+        .project:hover {
+            background-color: #e7e5e5; 
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .contact-info a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #333; 
+            margin-bottom: 10px;
+        }
+
+        .contact-info a i {
+            margin-right: 10px;
+        }
+
+        
+        .contact-info a.email {
+            color: #3498db; 
+        }
+
+        .contact-info a.linkedin {
+            color: #0077b5;
+        }
+
+        .contact-info a.github {
+            color: #333;
+        }
+
+        footer {
+            background-color: #708090;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-right: 10px;
+            background-color: #555;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #777;
+        }
+        
+        nav {
+            text-align: left;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        section {
+            padding: 70px 20px 20px;
+        }
+        h1 {
+            text-align: left;
+        }
+
+        h1 {
+            animation: fadeInUp 1.5s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .special-paragraph {
+            font-size: 16px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1> Alpons Pyro F. De Venecia</h1>
+        <h2>About Me</h2>
+        <p>I'm Alpons Pyro F. De Venecia, a Sophomore BSIT student at PHINMA University of Pangasinan. I'm a student seeking for new things to learn 
+            and I'm willing to improve my knowledge in different perspectives and improve my skills as a student. I'm willing to learn by collaborating and sharing knowledge with my fellow students.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Guessing Number Game</h3>
+            <img src="Guessing number.jpg" alt="Project 1 Image">
+            <p>This game allows you to guess numbers from 1 to 100 with 6 guesses till you guess the right number
+        . This game is for fun and you can play it with your friends. </p>
+        </div>
+
+        <div class="project">
+            <h3>Aquaflow</h3>
+            <img src="logowotah.jpg" alt="Project 1 Image">
+            <p>This application allows you to order Mineral Water Online. The shop who runs this app will 
+                deliver you the quantity of mineral water gallons you ordered.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <a href="mailto:alfe.devenecia.up@phinmaed.com">
+                <i class="fas fa-envelope"></i> Email
+            </a>
+            <a href="https://www.linkedin.com/in/alpons-pyro-de-venecia-5b6631257/" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/AlponsPyroFernandezDeVenecia" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p class="special-paragraph">&copy; 2024 Alpons Pyro</p>
+    </footer>
+
+</body>
+</html>
